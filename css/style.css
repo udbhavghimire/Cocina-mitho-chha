@@ -10,8 +10,12 @@
   font-weight: 800;
 }
 .nav-link {
-  color: black !important;
+  color: rgb(104, 100, 100) !important;
   font-weight: 500;
+}
+.nav-link:hover,
+.nav-link-active {
+  color: black !important;
 }
 .order-btn {
   background-color: rgb(238, 86, 86);
@@ -32,37 +36,69 @@
 .bolder {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 2rem;
 }
-.lnhei {
-  line-height: 1rem;
+.top-text {
+  font-size: 3rem;
+  color: white;
 }
 .mybackk {
-  background-image: url("../image/top.jpg");
-  height: 500px;
+  background-image: url("../image/top-back-img.jpeg");
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   /* border-radius: 0 0 75% 75%/0 0 100% 100%;
   transform: scaleX(1.5); */
 }
+.mybackk::before {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background-image: linear-gradient(
+    rgba(107, 107, 107, 0.86),
+    rgba(107, 107, 107, 0)
+  );
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
 .myfont {
   font-family: "Grand Hotel", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-  line-height: 65px;
   color: #ec0000;
+}
+.mytopcont {
+  padding: 5rem 10rem 17rem 10rem;
 }
 .mybold {
   font-weight: bold;
   font-size: 36px;
-  line-height: 20px;
   color: #000000;
 }
 .know-more {
   color: #008836;
+  text-decoration: none !important;
+  border-bottom: 2px solid #008836;
 }
 .know-more:hover {
   color: #008836;
+}
+.swoop {
+  position: absolute;
+  display: block;
+  fill: rgb(255, 255, 255);
+  bottom: 0 !important;
+}
+.margintopp {
+  margin-top: 4.7rem;
+}
+.z-indextop {
+  position: relative;
+  z-index: 1;
+}
+.textshadow {
+  text-shadow: 1px 1px #000000;
+}
+.lineh {
+  line-height: 2rem;
 }
