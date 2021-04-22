@@ -29,12 +29,6 @@
   border-radius: 0 0 75% 75%/0 0 100% 100%;
   transform: scaleX(1.5);
 }
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, 0%);
-}
 .bolder {
   font-size: 2.5rem;
   font-weight: 700;
@@ -49,6 +43,26 @@
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
-  border-radius: 0 0 75% 75%/0 0 100% 100%;
-  transform: scaleX(1.5);
+  /* border-radius: 0 0 75% 75%/0 0 100% 100%;
+  transform: scaleX(1.5); */
+}
+.myfont {
+  font-family: "Grand Hotel", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  color: #ec0000;
+}
+.mybold {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 20px;
+  color: #000000;
+}
+.know-more {
+  color: #008836;
+}
+.know-more:hover {
+  color: #008836;
 }
