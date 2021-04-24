@@ -119,3 +119,23 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+.lineh {
+  line-height: 1px;
+}
+.form-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.fields {
+  width: 100%;
+  padding: 1rem;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #f1f3fa;
+}
+.book-btn {
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #f50000;
+  border-radius: 13px;
+}
