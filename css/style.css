@@ -107,6 +107,7 @@
   font-weight: 500;
   font-size: 24px;
   text-decoration: none;
+  border: none;
 }
 .eventss {
   position: relative;
@@ -138,4 +139,67 @@
   font-weight: 500;
   background-color: #f50000;
   border-radius: 13px;
+}
+.textshadow {
+  text-shadow: 1px 1px #000000;
+}
+.lineh {
+  line-height: 2rem;
+}
+.clientlogo {
+  filter: grayscale(100%) !important;
+}
+.clientlogo:hover {
+  cursor: pointer;
+  filter: grayscale(0%) !important;
+}
+.topimgg-news {
+  top: -3rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.no-border:focus,
+.no-border:active {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: 0;
+  border-color: red;
+}
+.text-lineh {
+  line-height: 0.5px;
+}
+.caption {
+  position: absolute;
+  top: 80%;
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+.apartment {
+  position: relative;
+  display: inline-block;
+}
+.categories {
+  color: #2c4737;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 178.19%;
+}
+.foodss {
+  background-color: white;
+  border-radius: 10px;
+}
+.add-btn {
+  background-color: #f50000;
+  color: white;
+}
+.small-text {
+  font-size: 12px;
+}
+.food-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
