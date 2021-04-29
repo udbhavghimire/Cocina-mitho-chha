@@ -172,8 +172,8 @@
 .caption {
   position: absolute;
   top: 80%;
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 500;
   color: white;
 }
 .apartment {
@@ -184,7 +184,7 @@
   color: #2c4737;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 178.19%;
 }
 .foodss {
@@ -202,4 +202,13 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.footer-link {
+  color: rgb(104, 100, 100) !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer-link:hover,
+.footer-link-active {
+  color: black !important;
 }
